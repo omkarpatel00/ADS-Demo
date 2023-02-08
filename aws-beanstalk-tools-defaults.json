@@ -1,0 +1,21 @@
+
+{
+    "region" : "ap-south-1",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "self-contained" : false,
+    "application"    : "WebApplication1",
+    "environment"    : "WebApplication1-prod",
+    "app-path"       : "/",
+    "iis-website"    : "Default Web Site",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-269de058\";\"aws:ec2:vpc,Subnets\"=\"subnet-0f6167ee961afd0b1\"",
+    "solution-stack"       : "64bit Windows Server Core 2016 v2.11.0 running IIS 10.0",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "webapplication1-prod",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "test-k",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role"
+}
